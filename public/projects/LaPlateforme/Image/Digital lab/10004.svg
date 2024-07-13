@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="296" viewBox="0 0 296 296">
+  <g id="Groupe_6" data-name="Groupe 6" transform="translate(-224 -265)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(224 265)" fill="#fff" stroke="#000" stroke-width="1">
+      <circle cx="148" cy="148" r="148" stroke="none"/>
+      <circle cx="148" cy="148" r="147.5" fill="none"/>
+    </g>
+    <text id="Technique" transform="translate(372 407)" font-size="28" font-family="Inter Tight" font-weight="500"><tspan x="-64.332" y="0">Technique</tspan></text>
+    <text id="développeurs_web_makers_ingénieurs_" data-name="développeurs web,  makers, ingénieurs… " transform="translate(248 420)" font-size="16" font-family="Inter Tight"><tspan x="27.262" y="16" xml:space="preserve">développeurs web,  makers, </tspan><tspan x="81.922" y="36">ingénieurs… </tspan></text>
+  </g>
+</svg>

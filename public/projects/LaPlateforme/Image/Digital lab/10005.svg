@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="296" viewBox="0 0 296 296">
+  <g id="Groupe_7" data-name="Groupe 7" transform="translate(-224 -265)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(224 265)" fill="#fff" stroke="#000" stroke-width="1">
+      <circle cx="148" cy="148" r="148" stroke="none"/>
+      <circle cx="148" cy="148" r="147.5" fill="none"/>
+    </g>
+    <text id="Expert_sectoriel_" data-name="Expert sectoriel " transform="translate(372 407)" font-size="28" font-family="Inter Tight" font-weight="500"><tspan x="-99.155" y="0">Expert sectoriel </tspan></text>
+    <text id="urbaniste_architecte_bailleurs_promoteurs_aménageurs_" data-name="urbaniste, architecte, bailleurs, promoteurs, aménageurs…" transform="translate(248 420)" font-size="16" font-family="Inter Tight"><tspan x="19.441" y="16">urbaniste, architecte, bailleurs, </tspan><tspan x="30.754" y="36">promoteurs, aménageurs…</tspan></text>
+  </g>
+</svg>

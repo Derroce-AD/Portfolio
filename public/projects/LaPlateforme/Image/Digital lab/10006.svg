@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="296" viewBox="0 0 296 296">
+  <g id="Groupe_8" data-name="Groupe 8" transform="translate(-224 -265)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(224 265)" fill="#fff" stroke="#000" stroke-width="1">
+      <circle cx="148" cy="148" r="148" stroke="none"/>
+      <circle cx="148" cy="148" r="147.5" fill="none"/>
+    </g>
+    <text id="Entrepreneur_Chercheur_" data-name="Entrepreneur
+Chercheur " transform="translate(373 391)" font-size="28" font-family="Inter Tight" font-weight="500"><tspan x="-83.56" y="0">Entrepreneur </tspan><tspan x="-68.182" y="34">Chercheur </tspan></text>
+    <text id="innovateur_social_chercheur_en_sciences_sociales" data-name="innovateur social, chercheur en sciences sociales" transform="translate(249 439)" font-size="16" font-family="Inter Tight"><tspan x="16.848" y="16">innovateur social, chercheur en </tspan><tspan x="63.836" y="36">sciences sociales</tspan></text>
+  </g>
+</svg>

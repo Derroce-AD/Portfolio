@@ -1,0 +1,377 @@
+/* HEADER ET BODY */
+
+body {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+}    
+
+.title {
+    font-size: 30px;
+    margin: 15px 20px;
+    font-style:normal;
+    color: #1CC658;
+}    
+
+a {
+    text-decoration: none;
+    color: white;
+}    
+
+nav {
+    display: flex;
+    border: solid none;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 90vw;
+    padding: 1vw;
+    margin: 20px auto;
+}    
+
+nav a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
+}    
+
+
+
+nav a:hover {
+transform: scale(1.2);    
+}
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}    
+
+.logos img {
+    width: 5vw;
+    margin-right: 1vw;
+}    
+
+.logo {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    justify-self: space-between;
+    margin-right: 15vw;
+}       
+
+/* HEADER ET BODY */
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+main {
+    padding-top: 2vw;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 25px 40px;
+}
+
+@font-face {
+    font-family: circular;
+    src: url(../Assets\ fonts/gotham-bold.otf);
+}
+
+h3 {
+    font-size: 3vw;
+    margin: 10px 25px;
+    font-family: circular;
+    color: #1CC658;
+}
+
+p {
+    margin: 25px 40px;
+    line-height: 2em;
+}
+
+hr {
+    width: 60vw;
+    text-align: center;
+    margin: 6vw auto;
+}
+/* MAIN */
+
+
+
+
+
+
+.spotify-color, .youtube-color, .twitter-color {
+    font-weight: 600;
+}
+
+.spotify-color {
+    color: #1CC658;
+}
+
+.youtube-color {
+    color: #FF0000;
+}
+
+.twitter-color {
+    font-weight: 800;
+}
+
+.anim-button {
+    transition: transform 0.3s ease;
+}
+
+.anim-button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PREMIERE PARTIE SPOTIFY */
+
+
+
+
+
+.slogan {
+    color: #1CC658;
+    text-align: center;
+    margin: 35px 10px;
+
+}
+
+.overlay-spotify {
+    width:18vw;
+    height: auto;
+    border-radius: 20px;
+    justify-content: flex-end;
+}
+
+.line1-spotify {
+    display: flex;
+    align-items: center;
+}
+
+
+.left-spotify {  /* BLOC AVEC TEXTE DE PRESENTATION */
+    border: solid none;
+    background-color: rgb(66, 66, 66);
+    padding: 25px;
+    border-radius: 20px;
+    margin: 3vw 7vw;
+    transition: transform 2s ease;                      /* EFFET DE GROSSISSEMENT SUR IMG ALGO */
+}
+
+
+.left-spotify:hover {
+    transform: scale(1.04);
+}
+
+.title-spotify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos-from-blocs {
+    width: 120px;
+    margin: 25px 20px;
+}
+
+
+
+.column1 {
+    border: solid none;
+    color: #1CC658;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 3vw 6vw ;
+}
+
+.two-phones-spotify {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 3vw 16vw;
+}
+
+
+.two-phones-spotify p {
+    font-size: 20px;
+
+}
+
+
+.phone-1, .phone-2 {
+    width: 10vw;
+    height: 20vw;
+    transform: rotate(-5deg);   
+}
+
+.phone-2 {
+    transform: rotate(35deg);
+}
+
+.phones-spotify { 
+    transition: transform 2s ease;
+}
+
+.phones-spotify:hover { 
+    transform: scale(1.04);
+}
+
+
+.algo-spotify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8vw
+}
+
+
+
+.algo-spotify img {
+    width: 17vw;
+}
+
+
+
+.algo-spotify p {
+    width: 19vw;
+    height: auto;
+    text-align: right;
+    line-height: 2vw;
+    font-size: 22px
+}
+
+
+.algo-img {
+     transition: transform 1.2s ease;        /* EFFET DE GROSSISSEMENT SUR IMG ALGO */
+}
+
+.algo-img:hover {
+    transform: scale(1.07);
+}
+
+
+
+
+
+
+
+
+/* PREMIERE PARTIE SPOTIFY */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    border: solid none;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 7vw 3vw;
+    margin-top: 5vw;
+}
+
+footer a {
+    color: white;
+    transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
+}
+
+footer a:hover {
+    transform: scale(1.2);
+}
+
+
+footer p {
+    text-align: center;
+}
+
+
+
+.logos-footer {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+}     
+
+.logos-footer img {
+    width: 5vw;
+    margin-right: 1vw;
+}    
+
+.logo-footer {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    justify-self: space-between;
+    margin-right: 15vw;
+}       
+
+
+.button1 {
+    border: solid white;
+    padding: 1vw;
+    display: block;
+    width: fit-content;
+    margin: 3vw auto;
+    border-radius: 20px;
+}
+
+.title-footer {
+    font-size: 25px;
+    text-align: center;
+    border: solid none;
+    background-color: #b8b8b811;
+    width: auto;
+    display: block;
+    height: auto;
+    padding: 15px;
+    margin: 0vw 20vw;
+    border-radius: 20px;
+}
+
+/* FOOTER */

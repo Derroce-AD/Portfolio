@@ -1,0 +1,242 @@
+/* Général */
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    font-family: "Inter Tight", sans-serif;
+    position: relative;
+    background-color: rgb(235, 254, 255);
+}
+
+h1 {
+    color: #00ace2;
+    font-size: 4vw;
+}
+
+h3 {
+    font-size: 1.4vw;
+}
+
+h3-intro {
+    font-size: 1.9vw;
+    line-height: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none; /* Empêcher la sélection de texte */
+}
+
+hr {
+    width: 60vw;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+
+/* HEADER  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 2vw;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effet d'ombre sous le header */
+    border-radius: 0 0 1vw 1vw;
+}
+
+.right-part-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.right-part-header a:hover{
+    color: #00ace2;
+}
+
+
+.stick {
+cursor: default;
+}
+
+.logo {
+    color: #00ace2;
+}
+
+
+.logo:hover {
+    color: black;
+}
+
+/* HEADER  */
+
+
+
+
+
+
+
+
+/* INDEX */
+
+
+
+
+
+
+/* INTRO DE LA PAGE */
+.introIndex {
+    margin: 0vw 3vw;
+    font-size: 1.5vw;
+    display: flex;
+}
+
+/* PARTIE GAUCHE DE L'INTRO DE LA PAGE */
+.leftSideIntro {
+    margin-top: 5vw;
+    margin-right: 0vw;
+    padding-right: 9vw;
+}
+
+.introTitle { 
+    margin-bottom: 6vw;
+    cursor: default;
+}
+
+
+/* PARTIE DROITE DE L'INTRO DE LA PAGE */
+.rightSideIntro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw auto;
+}
+
+.portrait {
+    width: 16vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/* BOUTON CONTACT */
+.contactButton {
+    border: solid none;
+    border-radius: 1.7vw;
+    background-color: #00ace2;
+    padding: 1.3vw 2vw;
+    margin: 3vw;
+    font-size: 1.5vw;
+    color: white;
+    transition: transform 0.3s ease;
+}
+.contactButton:hover {
+    transform: scale(1.1); /* Agrandit le bouton de 10% */
+}
+
+
+
+.medium-title {
+    color: #00ace2;
+    margin: 1vw 3vw;
+    font-size: 2vw;
+}
+
+
+
+.paragraph p {
+    margin-bottom: 4vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 2vw;
+}
+
+.center-paragraph {
+    text-align: center;
+    line-height: 3vw;
+    margin-left: 8vw;
+    margin-right: 4vw;
+}
+
+.CV-paragraph {
+    text-align: left;
+    line-height: 3vw;
+    margin-left: 2vw;
+    margin-right: 8vw;
+}
+
+.cv {
+    width: 30vw;
+    height: auto;
+    border-radius: 1.7vw;
+    margin: 5vw auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.cv:hover {
+    transform: scale(2);
+}
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #00ace2;
+    bottom: 0;
+    padding: 1vw 3vw;
+    display: grid;
+}
+
+.logo-footer {
+    width: 4vw;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin: 0 1vw;
+}
+
+.logo-footer:hover {
+    transform: scale(1.2);
+}
+
+.footer-title {
+    font-size: 2vw;
+}
+
+.first-column-footer {
+    justify-content: flex-start;
+}
+
+.second-column-footer {
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+.second-column-footer a {
+    color: white;
+}
+
+
+/* FOOTER */

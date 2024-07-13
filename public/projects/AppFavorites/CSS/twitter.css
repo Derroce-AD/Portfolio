@@ -1,0 +1,373 @@
+/* HEADER ET BODY */
+
+body {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+}    
+
+.title {
+    font-size: 30px;
+    margin: 15px 20px;
+    font-style:normal;
+    color: #179CF0;
+}    
+
+a {
+    text-decoration: none;
+    color: white;
+}    
+
+nav {
+    display: flex;
+    border: solid none;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 90vw;
+    padding: 1vw;
+    margin: 20px auto;
+}    
+
+nav a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
+}    
+
+
+
+nav a:hover {
+transform: scale(1.2);    
+}
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}    
+
+.logos img {
+    width: 5vw;
+    margin-right: 1vw;
+}    
+
+.logo {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    justify-self: space-between;
+    margin-right: 15vw;
+}       
+
+/* HEADER ET BODY */
+
+
+
+/* TWITTER */
+
+.slogan {
+    text-align: center;
+    margin: 35px 10px;
+}
+
+.paragraph-twitter-blue {
+    color: #179CF0;
+    text-align: center;
+    margin:4vw;
+    font-family: circular;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.paragraph-twitter {
+    text-align: center;
+    margin: 4vw;
+}
+
+.mosaique-twitter {
+    width:35vw;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+
+
+/* EFFET DE ZOOM SUR L'IMG MOSAIQUE  */
+.mosaique-twitter:hover {
+    transform: scale(1.07)
+}
+
+
+/* IMG AVEC LES 3 TELEPHONES */
+.three-phones-twitter { 
+    display: block;
+    margin: 7vw auto;
+    padding: auto;
+}
+
+.second-part-twitter {
+    display: flex;
+    border: solid none;
+    background-color: #111111;
+    margin-right: 8vw;
+    margin-left: 0;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    border-bottom-right-radius: 40px;    
+    border-top-right-radius: 40px;    
+}
+
+.column1 {
+    padding: 2vw;
+}
+
+
+
+
+.third-part-twitter {
+    display: flex;
+}
+
+.block-text-twitter {
+    border: solid none;
+    background-color: #111111;
+    margin: 8vw 3vw;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hand-holding-phone {
+    width: 50vw;
+    height: auto;
+    margin-left: 4vw;
+    transition: transform 0.3s ease;
+}
+
+
+.hand-holding-phone:hover {
+    transform: rotate(-10deg);
+}
+
+
+.fourth-part-twitter {
+    display: flex;
+    align-items: center;
+    margin: 8vw 5vw;
+}
+
+
+.fourth-part-twitter img {
+    width:20vw;
+    transition: transform 0.3s ease;
+}
+
+.fourth-part-twitter img:hover {
+    transform: rotate(10deg);
+}
+
+
+
+
+.fourth-paragraph p{
+    text-align:  right;
+    margin: 50px 20px;
+
+}
+
+.fifth-part-twitter {
+    display: flex;
+    align-items: center;
+}
+
+
+/* IMAGE DE TELEPHONE SCINDEE */
+.fifth-part-twitter img{
+    margin: 0 5vw;
+}
+
+.paragraph-twitter-blue2 {
+    margin: 0 5vw;
+    text-align: right;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/* TWITTER */
+
+
+
+
+
+/* MAIN */
+main {
+    padding-top: 2vw;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 25px 40px;
+}
+
+@font-face {
+    font-family: circular;
+    src: url(../Assets\ fonts/gotham-bold.otf);
+}
+
+h3 {
+    font-size: 3vw;
+    margin: 10px 25px;
+    font-family: circular;
+    color: white;
+        }
+
+p {
+    margin: 25px 40px;
+    line-height: 2em;
+}
+
+hr {
+    width: 60vw;
+    text-align: center;
+    margin: 6vw auto;
+}
+/* MAIN */
+
+
+
+
+
+
+.spotify-color, .youtube-color, .twitter-color {
+    font-weight: 600;
+}
+
+.spotify-color {
+    color: #1CC658;
+}
+
+.youtube-color {
+    color: #FF0000;
+}
+
+.twitter-color {
+    font-weight: 800;
+}
+
+.anim-button {
+    transition: transform 0.3s ease;
+}
+
+.anim-button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    border: solid none;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 7vw 3vw;
+    margin-top: vw;
+}
+
+footer a {
+    color: white;
+    transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
+}
+
+footer a:hover {
+    transform: scale(1.2);
+}
+
+
+footer p {
+    text-align: center;
+}
+
+.title-footer {
+    font-size: 80px;
+}
+
+
+
+.logos-footer {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+}    
+
+.logos-footer img {
+    width: 5vw;
+    margin-right: 1vw;
+}    
+
+.logo-footer {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    justify-self: space-between;
+    margin-right: 15vw;
+}       
+
+
+.button1 {
+    border: solid white;
+    padding: 1vw;
+    display: block;
+    width: fit-content;
+    margin: 3vw auto;
+    border-radius: 20px;
+}
+
+.title-footer {
+    font-size: 25px;
+    text-align: center;
+    border: solid none;
+    background-color: #b8b8b811;
+    width: auto;
+    display: block;
+    height: auto;
+    padding: 15px;
+    margin: 0vw 20vw;
+    border-radius: 20px;
+}
+
+/* FOOTER */

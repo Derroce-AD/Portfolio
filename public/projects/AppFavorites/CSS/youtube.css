@@ -1,0 +1,320 @@
+/* HEADER ET BODY */
+
+body {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 228, 228);
+}    
+
+.title {
+    font-size:3vw;
+    margin: 15px 20px;
+    font-style:normal;
+    color: #FF0000;
+}    
+
+a {
+    text-decoration: none;
+    color: #FF0000;
+}    
+
+nav {
+    display: flex;
+    border: solid none;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 90vw;
+    padding: 1vw;
+    margin: 20px auto;
+}    
+
+nav a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
+}    
+
+
+nav a:hover {
+transform: scale(1.2);    
+}
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}  
+
+.logos img {
+    width: 5vw;
+    margin-right: 1vw;
+}    
+
+.logo {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    justify-self: space-between;
+    margin-right: 15vw;
+}       
+
+/* HEADER ET BODY */
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+main {
+    padding-top: 2vw;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 25px 40px;
+}
+
+@font-face {
+    font-family: circular;
+    src: url(../Assets\ fonts/gotham-bold.otf);
+}
+
+h3 {
+    font-size: 3vw;
+    margin: 10px 25px;
+    font-family: circular
+}
+
+p {
+    margin: 25px 40px;
+    line-height: 2em;
+}
+
+hr {
+    width: 70vw;
+    text-align: center;
+    margin: 6vw auto;
+}
+/* MAIN */
+
+
+
+
+
+.spotify-color, .youtube-color, .twitter-color {
+    font-weight: 600;
+}
+
+.spotify-color {
+    color: #1CC658;
+}
+
+.youtube-color {
+    color: #FF0000;
+}
+
+.twitter-color {
+    font-weight: 800;
+}
+
+.anim-button {
+    transition: transform 0.3s ease;
+}
+
+.anim-button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* YTB */
+.feed-content {
+    width: 100%;
+    height: auto;
+}
+
+
+h4 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    border: solid none;
+    background-color: black;
+    padding: 5vw 5vw;
+    line-height: 40px;
+    margin-top: 5vw;
+}
+
+.slogan {
+    color: #FF0000;
+    text-align: center;
+    margin: 35px 10px;
+
+}
+
+.paragraph-ytb {
+    text-align: center;
+    margin: 4vw;
+}
+
+
+
+.three-screens-ytb {  /* CSS DES 3 TELEPHONES */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.three-screens-ytb img {
+    width: 12vw;
+    margin: 4vw 9vw ;
+    transition: transform 1s ease;  
+}
+
+
+
+.three-screens-ytb img:hover {
+    transform: scale(1.3);
+}
+
+
+.video-loop {
+    width: 25vw;
+    display:block;
+    margin: auto;
+    padding: auto;
+}
+
+
+.ipad-ytb{
+    transition: transform 1.5s ease; /* Ajoute une transition de 0.3 secondes avec un effet fluide */
+    margin: 6vw auto;
+    padding: auto;
+    display: block;
+}
+
+.ipad-ytb:hover {
+    transform:rotate(360deg) /* Applique une rotation de 360 degrés lorsqu'on survole l'image */
+}
+
+.conclusion {
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+    font-family:circular;
+    line-height: 50px;
+}
+
+/* YTB */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    border: solid none;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 7vw 3vw;
+    margin-top: 5vw;
+}
+
+footer a {
+    color: white;
+    transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
+}
+
+footer a:hover {
+    transform: scale(1.2);
+}
+
+
+footer p {
+    text-align: center;
+}
+
+.title-footer {
+    font-size: 25px;
+    text-align: center;
+    border: solid none;
+    background-color: #b8b8b811;
+    width: auto;
+    display: block;
+    height: auto;
+    padding: 15px;
+    margin: 0vw 20vw;
+    border-radius: 20px;
+}
+
+
+
+.logos-footer {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+}    
+
+.logos-footer img {
+    width: 5vw;
+    margin-right: 1vw;
+}    
+
+.logo-footer {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    justify-self: space-between;
+    margin-right: 15vw;
+}       
+
+
+.button1 {
+    border: solid white;
+    padding: 1vw;
+    display: block;
+    width: fit-content;
+    margin: 3vw auto;
+    border-radius: 20px;
+}
+
+/* FOOTER */
