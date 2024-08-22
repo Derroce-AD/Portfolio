@@ -1,17 +1,17 @@
-<!-- resources/views/layouts/app.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <title>@yield('title')</title>
+    <title>@yield('title', 'Portfolio')</title>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
 </head>
 <body>
-    @include('partials.header')
-    <div class="container">
+    @include('includes.header')
+    <main>
         @yield('content')
-    </div>
-    @include('partials.footer')
+    </main>
+    @include('includes.footer')
 </body>
 </html>
+
